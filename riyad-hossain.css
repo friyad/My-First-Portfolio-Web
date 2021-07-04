@@ -6,6 +6,8 @@ body{
 }
 
 .section01{
+background-image: url(Images/top-banner.png);
+background-repeat: no-repeat;
  display: flex;
  width: 100%;}
 
@@ -45,6 +47,9 @@ body{
                                 }
 
 .section02{
+    background-image: url(Images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
     display: flex;
     width: 100%;}
 
@@ -70,12 +75,64 @@ body{
                                 text-decoration: none;
                                 font-weight: 900;
                                 color: white;
-                                border-radius: 5px;                               
+                                border-radius: 5px;}
 
+#riyad{
+    background-image: linear-gradient(to right, tomato, white );
+    padding-left: 60px;
+    margin: 50px 0px 0px 0px ;
+    }
+
+    .section03{
+    width: 100%;
+    display: flex;
+    margin: 0;
+
+    }
+
+            .all-skills-style{
+                background-image: linear-gradient(to left, white, red);
+                padding: 5px 5px;
+                color: white;
+                border-radius: 6px;
+
+            }
+                        .skills01{
+                        width: 40%;
+                            margin-left: 6%;
+                        }
+
+
+
+
+.section04{
+display: flex;
+width: 100%;
+margin: 0;
+padding-left: 50px;
+}
+
+
+        .graphic-designer{
+        width: 40%;
+        height: 400px;
+        box-shadow: 0px 0px 40px 0px gray;
+        margin: 3%;
+        font-family: arial;
+    padding-left: 30px;
+        }   
+    
+
+                .graphic-designer p{
+                    padding-right: 50px;
+                }
+
+                            .graphic-designer h1{
+                                color: #ff468f;
+                                font-weight: bold;
                             }
 
-
-
-
-
-
+footer{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
