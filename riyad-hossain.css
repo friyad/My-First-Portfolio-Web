@@ -1,5 +1,48 @@
 body{
-    background-color: rgb(212, 213, 214);
+    background-color: rgb(255, 255, 255);
     font-family: 'Russo One', sans-serif;
-
+    margin: 0;
+    padding: 0;
 }
+
+.section01{
+ display: flex;
+ width: 100%;}
+
+
+
+                .welcome-text01{
+                    width: 50%;
+                    padding-left: 105px;
+                    padding-right: 20px;}
+
+                .welcome-text01 h1{
+                    font-size: 50px;
+                    font-weight: 100;}
+
+                .welcome-text01 h3{
+                    font-weight: 100;}
+
+                .welcome-text01 span{
+                    color: #ffa500;
+                    font-weight: 800;}
+
+                .welcome-text01 p{
+                    font-weight: 100;
+                    margin-bottom: 30px;
+                    font-family: Arial, Helvetica, sans-serif;}
+                
+                .welcome-text01 a{
+                    padding: 10px 40px;
+                    background-image: linear-gradient( to left, tomato, rgb(255, 0, 0));
+                    text-decoration: none;
+                    font-weight: 900;
+                    color: white;
+                    border-radius: 5px;}
+
+                                                    .welcome-text02 img {
+                                                        width: 85%;
+                                                    }
+
+
+
