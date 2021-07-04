@@ -16,18 +16,18 @@ body{
                     padding-left: 105px;
                     padding-right: 20px;}
 
-                .welcome-text01 h1{
+                h1{
                     font-size: 50px;
                     font-weight: 100;}
 
-                .welcome-text01 h3{
+                h3{
                     font-weight: 100;}
 
                 .welcome-text01 span{
                     color: #ffa500;
                     font-weight: 800;}
 
-                .welcome-text01 p{
+                p{
                     font-weight: 100;
                     margin-bottom: 30px;
                     font-family: Arial, Helvetica, sans-serif;}
@@ -40,9 +40,42 @@ body{
                     color: white;
                     border-radius: 5px;}
 
-                                                    .welcome-text02 img {
-                                                        width: 85%;
-                                                    }
+                                .welcome-text02 img {
+                                    width: 85%;
+                                }
+
+.section02{
+    display: flex;
+    width: 100%;}
+
+
+                        .my-dream01{
+                            width: 50%;
+                            padding-left: 90px;
+                        }
+
+                        .my-dream01 img{
+                        width: 85%;
+                        }
+
+                            .my-dream02{
+                                width: 50%;}
+
+                            .my-dream02 p{
+                                padding-right: 140px;}
+
+                            .my-dream02 a{
+                                padding: 10px 40px;
+                                background-image: linear-gradient( to right, tomato, rgb(255, 0, 0));
+                                text-decoration: none;
+                                font-weight: 900;
+                                color: white;
+                                border-radius: 5px;                               
+
+                            }
+
+
+
 
 
 
